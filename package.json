@@ -1,0 +1,22 @@
+{
+    "name": "template-playable-vite",
+    "description": "A Phaser 3 template using Vite.",
+    "version": "1.4.0",
+    "type": "module",
+
+    "scripts": {
+        "dev": "node tools/generate-assets-base64.js && vite --config vite/config.dev.mjs",
+        "assets": "node tools/generate-assets-base64.js",
+        "build": "node tools/generate-assets-base64.js && vite build --config vite/config.prod.mjs && node tools/inline-bundle.js"
+    },
+    "devDependencies": {
+        "@esotericsoftware/spine-core": "^4.2.82",
+        "@esotericsoftware/spine-phaser-v4": "^4.2.82",
+        "mime-types": "^3.0.1",
+        "terser": "^5.39.0",
+        "vite": "^6.3.1"
+    },
+    "dependencies": {
+        "phaser": "^4.0.0-rc.4"
+    }
+}

@@ -1,0 +1,10 @@
+skeleton.png
+size:209,116
+filter:Linear,Linear
+body
+bounds:2,2,175,112
+offsets:0,0,176,112
+left
+bounds:179,78,28,36
+right
+bounds:179,43,28,33
