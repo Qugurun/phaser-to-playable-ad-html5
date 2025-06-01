@@ -53,7 +53,7 @@
 | `src/game/main.js`                | Точка входа в игру: настраивает и запускает игру.                                                                                                                      |
 | `src/game/scenes`                 | Папка со всеми сценами игры Phaser.                                                                                                                                    |
 | `src/SpineBase64Plugin.js`        | Плагин для загрузки Spine из `base64` (`*.json`, `*.atlas`).                                                                                                           |
-| `tools`                           | Папка вспомогательный скриптов.                                                                                                                                        |
+| `tools`                           | Папка вспомогательных скриптов.                                                                                                                                        |
 | `tools/generate-assets-base64.js` | Скрипт для сборки файла `assets-base64.js` содержащий все ассеты в `base64`. Запускается автоматически при `npm run dev`, `npm run build` и отдельно `npm run assets`. |
 | `tools/inline-bundle.js`          | Скрипт для объединения `bandle.min.js` c `index.html` в единый файл. Запускается автоматически при `npm run build`                                                     |
 
