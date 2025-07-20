@@ -3,11 +3,10 @@
     "description": "A Phaser 3 template using Vite.",
     "version": "1.4.0",
     "type": "module",
-
     "scripts": {
         "dev": "node tools/generate-assets-base64.js && vite --config vite/config.dev.mjs",
         "assets": "node tools/generate-assets-base64.js",
-        "build": "node tools/generate-assets-base64.js && vite build --config vite/config.prod.mjs && node tools/inline-bundle.js"
+        "build": "node tools/generate-assets-base64.js && vite build --config vite/config.prod.mjs && node tools/inline-bundle.js && node tools/packer.js"
     },
     "devDependencies": {
         "@esotericsoftware/spine-core": "^4.2.82",
@@ -17,6 +16,7 @@
         "vite": "^6.3.1"
     },
     "dependencies": {
+        "pako": "^2.1.0",
         "phaser": "^4.0.0-rc.4"
     }
 }
