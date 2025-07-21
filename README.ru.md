@@ -56,6 +56,7 @@
 | `tools`                           | Папка вспомогательных скриптов.                                                                                                                                        |
 | `tools/generate-assets-base64.js` | Скрипт для сборки файла `assets-base64.js` содержащий все ассеты в `base64`. Запускается автоматически при `npm run dev`, `npm run build` и отдельно `npm run assets`. |
 | `tools/inline-bundle.js`          | Скрипт для объединения `bandle.min.js` c `index.html` в единый файл. Запускается автоматически при `npm run build`                                                     |
+| `tools/packer.js`                 | Скрипт для сжатия `index.html`. Запускается автоматически при `npm run build`                                                     |
 
 ## Встроенные ассеты в Base64
 
