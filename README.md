@@ -40,7 +40,7 @@ To update assets via `base64`, run `npm run assets`.
 
 We provide a standard project structure to get started:  
 
-| Path                              | Description                                                                                                                                                               |  
+| Path                              | Description                                                                                                                                                              |  
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |  
 | `index.html`                      | Base HTML page for hosting the game.                                                                                                                                     |  
 | `public/assets`                   | Game sprites, audio, etc. Accessible directly at runtime via the global `asset()` function.                                                                              |  
@@ -52,6 +52,8 @@ We provide a standard project structure to get started:
 | `tools`                           | Folder containing utility scripts.                                                                                                                                       |  
 | `tools/generate-assets-base64.js` | Script for generating the `assets-base64.js` file containing all assets in `base64`. Runs automatically with `npm run dev`, `npm run build`, or separately via `npm run assets`. |  
 | `tools/inline-bundle.js`          | Script for merging `bundle.min.js` with `index.html` into a single file. Runs automatically with `npm run build`.                                                        |  
+| `tools/packer.js`                 | Script for compressing index.html. Runs automatically during npm run build.                                                                                              |
+| `tools/pako_inflate.min.js`       | Minified version of pako is embedded in `index.html` for data decompression. Used in `tools/packer.js.`                                                                  |
 
 ## Embedded Assets in Base64  
 
