@@ -1,4 +1,3 @@
-[![Page Views Count](https://badges.toozhao.com/badges/01JWPS9QECXKSW4PQN2YTNQB1A/green.svg)](https://badges.toozhao.com/stats/01JWPS9QECXKSW4PQN2YTNQB1A "Get your own page views count badge on badges.toozhao.com")
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Qugurun/phaser-to-playable-ad-html5/blob/main/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/Qugurun/phaser-to-playable-ad-html5/blob/main/README.ru.md)
 [![made-with-phaser](https://badgen.net/badge/Made%2520with/PHASER/purple)](https://phaser.io)
